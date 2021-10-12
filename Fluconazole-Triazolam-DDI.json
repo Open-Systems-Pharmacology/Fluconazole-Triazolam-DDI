@@ -1,0 +1,4407 @@
+{
+  "Version": 77,
+  "Individuals": [
+    {
+      "Name": "Triazolam European (P-gp modified, CYP3A4 36 h)",
+      "Seed": 17189110,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "AADAC",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "BloodCells",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Plasma",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Bone",
+              "Value": 4.8717948718E-05
+            },
+            {
+              "Name": "Brain",
+              "Value": 3.9743589744E-05
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0011923076923
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.0026602564103
+            },
+            {
+              "Name": "Kidney",
+              "Value": 5.7051282051E-05
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0269230769
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.00020833333333
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.1474358974
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.00037115384615
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0775641026
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.00010384615385
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "P-gp",
+          "Type": "Transporter",
+          "TransportType": "Efflux",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0341950646
+            },
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.1072855464
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.024559342
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.059106933
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Apical",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0927144536
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0180963572
+            },
+            {
+              "Name": "Pancreas",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0200940071
+            },
+            {
+              "Name": "Spleen",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1047003525
+            },
+            {
+              "Name": "Stomach",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0367802585
+            },
+            {
+              "Name": "SmallIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LargeIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "Duodenum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "UpperJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "LowerJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "UpperIleum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "LowerIleum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "ColonAscendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonTransversum",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonDescendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonSigmoid",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            }
+          ],
+          "Ontogeny": {
+            "Name": "P-gp",
+            "Table": {
+              "Name": "TableFormula",
+              "Percentile": 0.0,
+              "DistributionMetaData": [
+                {
+                  "Mean": 1E-14,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 1.915059E-05,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 5.486795E-05,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.0001571905,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.0004502473,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.001288958,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.00368424,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.01048397,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.02946235,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.0800178,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.1994918,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.4165768,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.6716791,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.8542612,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.943803,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9796414,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.992799,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9974749,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9991173,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9996917,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9998924,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9999624,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9999869,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 1.0,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                }
+              ],
+              "XName": "Postmenstrual age",
+              "XDimension": "Age in years",
+              "XUnit": "year(s)",
+              "YName": "P-gp",
+              "YDimension": "Fraction",
+              "UseDerivedValues": false,
+              "Points": [
+                {
+                  "X": 0.0,
+                  "Y": 1E-14,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.08333334,
+                  "Y": 1.915059E-05,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.1666667,
+                  "Y": 5.486795E-05,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.25,
+                  "Y": 0.0001571905,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.3333333,
+                  "Y": 0.0004502473,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.4166667,
+                  "Y": 0.001288958,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.5,
+                  "Y": 0.00368424,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.5833333,
+                  "Y": 0.01048397,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.6666667,
+                  "Y": 0.02946235,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.75,
+                  "Y": 0.0800178,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.8333333,
+                  "Y": 0.1994918,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.9166667,
+                  "Y": 0.4165768,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.0,
+                  "Y": 0.6716791,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.083333,
+                  "Y": 0.8542612,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.166667,
+                  "Y": 0.943803,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.25,
+                  "Y": 0.9796414,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.333333,
+                  "Y": 0.992799,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.416667,
+                  "Y": 0.9974749,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.5,
+                  "Y": 0.9991173,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.583333,
+                  "Y": 0.9996917,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.666667,
+                  "Y": 0.9998924,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.75,
+                  "Y": 0.9999624,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.833333,
+                  "Y": 0.9999869,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 3.333333,
+                  "Y": 1.0,
+                  "RestartSolver": false
+                }
+              ]
+            }
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.41,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "OATP1B1",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.00014166666667
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0141666667
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0008253968254
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 4.0079365079E-05
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.00064682539683
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "ATP1A2",
+          "Type": "OtherProtein",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "ExtracellularMembrane",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "Value": 0.0062154033171
+            },
+            {
+              "Name": "Brain",
+              "Value": 1.0
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0508741242
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.3179118843
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0158938619
+            },
+            {
+              "Name": "Periportal",
+              "Value": 0.0223784807
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 0.0223784807
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0272345453
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.7034193524
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.0073903254795
+            },
+            {
+              "Name": "Skin",
+              "Value": 0.0389467988
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.0103243118
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0309435884
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0786998764
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.47661714,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "UGT1A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            }
+          ],
+          "Ontogeny": {
+            "Name": "UGT1A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 2.32,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "GABRG2",
+          "Type": "OtherProtein",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "ExtracellularMembrane",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 1.0
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0877710492,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "UGT2B7",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Gonads",
+              "Value": 0.00094468085106
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.0354468085
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.5361702128
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0049787234043
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.5361702128
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.5361702128
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.5361702128
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.5361702128
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.5361702128
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0049787234043
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0049787234043
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0049787234043
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0049787234043
+            }
+          ],
+          "Ontogeny": {
+            "Name": "UGT2B7"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Fluconazole",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Glycoprotein",
+      "Lipophilicity": [
+        {
+          "Name": "Optimized_Lipophilicity",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 0.8302390226,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 1' on 2021-07-13 15:29"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement_Fraction_Unbound_Pfizer",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 89.0,
+              "Unit": "%"
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement_Solubility_Charoo2014",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 6.9,
+              "Unit": "mg/ml"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Measurement_Specific_Intestinal_Permeability_GastroPlus",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 0.000213,
+              "Unit": "cm/s"
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 2.03,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationIntrinsic_FirstOrder",
+          "DataSource": "Watt2018",
+          "Species": "Human",
+          "Molecule": "UGT2B7",
+          "Parameters": [
+            {
+              "Name": "Intrinsic clearance",
+              "Value": 0.008,
+              "Unit": "l/min"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.0018460294654,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 1' on 2021-07-13 15:29"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Watt2018",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 0.1433240785,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 1' on 2021-07-13 15:29"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "NoncompetitiveInhibition",
+          "DataSource": "Watt2018",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 10.7,
+              "Unit": "µmol/l"
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "F",
+          "Value": 2.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 306.328,
+          "Unit": "g/mol"
+        }
+      ]
+    },
+    {
+      "Name": "Triazolam",
+      "IsSmallMolecule": true,
+      "Lipophilicity": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.897007419,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'IV + Oral' on 2018-11-13 16:52"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.174,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVivo",
+                "Description": "PMID: 3360971"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 4.53,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Unknown",
+                "Description": "drugbank.ca"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Unknown",
+                "Description": "drugbank.ca"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 7.0220146601E-05,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'IV + Oral' on 2018-11-13 16:52"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 1.52,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "alpha-OH pathway",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 2.36,
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 8632299"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 74.2,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 8632299"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 4.0317206142,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'IV + Oral' on 2018-11-13 16:52"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "4-OH pathway",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 10.27,
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 8632299"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 305.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 8632299"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 17.5448180963,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'IV + Oral' on 2018-11-13 16:52"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 2.0
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 343.21,
+          "Unit": "g/mol"
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Fluconazole_Weibull_low dose",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 33.3965005792,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 2' on 2021-07-13 18:01"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 2.1410681544,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 2' on 2021-07-13 18:01"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    },
+    {
+      "Name": "Fluconazole_Weibull_medium high dose",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 75.1395611322,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 2' on 2021-07-13 18:01"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 2.1410681544,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 2' on 2021-07-13 18:01"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    },
+    {
+      "Name": "Halcion",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 1.7958147418,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'IV + Oral' on 2018-11-13 16:52"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 2.5169993312,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'IV + Oral' on 2018-11-13 16:52"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Varhe_1996_fluconazole_100.mg.po",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 100.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 4.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Varhe_1996_fluconazole_200.mg.po",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 400.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Schema 2",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 200.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 3.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Varhe_1996_fluconazole_50.mg.po",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 50.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 4.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Varhe_1996_triazolam_0.25mg_po",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.25,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 73.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Varhe_1996_triazolam_0.25mg_po_placebo",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.25,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Varhe triazolam 0.25 mg po fluconazole 50mg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Varhe 1996c - Triazolam with perpetrator fluconazole 50mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)",
+        "Varhe 1996c - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 97.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Varhe_1996_fluconazole_50.mg.po|Fluconazole_Weibull_low dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Varhe_1996_fluconazole_50.mg.po|Fluconazole_Weibull_low dose|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Varhe_1996_fluconazole_50.mg.po|Fluconazole_Weibull_low dose|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Varhe_1996_fluconazole_50.mg.po|Fluconazole_Weibull_low dose|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Varhe_1996_triazolam_0.25mg_po|Halcion|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Triazolam European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Triazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-alpha-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A4-4-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "UGT2B7"
+            }
+          ],
+          "Protocol": {
+            "Name": "Varhe_1996_triazolam_0.25mg_po",
+            "Formulations": [
+              {
+                "Name": "Halcion",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Fluconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Measurement_Specific_Intestinal_Permeability_GastroPlus",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "UGT2B7-Watt2018",
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "Name": "Glomerular Filtration-Watt2018",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Varhe_1996_fluconazole_50.mg.po",
+            "Formulations": [
+              {
+                "Name": "Fluconazole_Weibull_low dose",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Triazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Varhe triazolam 0.25 mg po fluconazole 50mg|Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Varhe 1996c - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Varhe 1996c - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Varhe 1996c - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Varhe triazolam 0.25 mg po fluconazole 50mg|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "Varhe 1996c - Triazolam with perpetrator fluconazole 50mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Varhe 1996c - Triazolam with perpetrator fluconazole 50mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Varhe 1996c - Triazolam with perpetrator fluconazole 50mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Fluconazole-Triazolam-DDI\nVarhe triazolam 0.25 mg po fluconazole 50mg placebo\n2021-08-05 10:46"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Watt2018",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ]
+    },
+    {
+      "Name": "Varhe triazolam 0.25 mg po fluconazole 100mg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Varhe 1996c - Fluconazole 100 mg oral - Fluconazole - PO - 100 mg - Plasma - agg. (n=8)",
+        "Varhe 1996c - Triazolam with perpetrator fluconazole 100mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 97.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Varhe_1996_fluconazole_100.mg.po|Fluconazole_Weibull_medium high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Varhe_1996_fluconazole_100.mg.po|Fluconazole_Weibull_medium high dose|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Varhe_1996_fluconazole_100.mg.po|Fluconazole_Weibull_medium high dose|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Varhe_1996_fluconazole_100.mg.po|Fluconazole_Weibull_medium high dose|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Varhe_1996_triazolam_0.25mg_po|Halcion|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Triazolam European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Triazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-alpha-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A4-4-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "UGT2B7"
+            }
+          ],
+          "Protocol": {
+            "Name": "Varhe_1996_triazolam_0.25mg_po",
+            "Formulations": [
+              {
+                "Name": "Halcion",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Fluconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Measurement_Specific_Intestinal_Permeability_GastroPlus",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "UGT2B7-Watt2018",
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "Name": "Glomerular Filtration-Watt2018",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Varhe_1996_fluconazole_100.mg.po",
+            "Formulations": [
+              {
+                "Name": "Fluconazole_Weibull_medium high dose",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Triazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Varhe triazolam 0.25 mg po fluconazole 100mg|Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Varhe 1996c - Triazolam with perpetrator fluconazole 100mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Varhe 1996c - Triazolam with perpetrator fluconazole 100mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Varhe 1996c - Triazolam with perpetrator fluconazole 100mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Varhe 1996c - Fluconazole 100 mg oral - Fluconazole - PO - 100 mg - Plasma - agg. (n=8)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Varhe 1996c - Fluconazole 100 mg oral - Fluconazole - PO - 100 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Varhe 1996c - Fluconazole 100 mg oral - Fluconazole - PO - 100 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Varhe triazolam 0.25 mg po fluconazole 100mg|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 7
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Fluconazole-Triazolam-DDI\nVarhe triazolam 0.25 mg po fluconazole 100mg placebo\n2021-08-05 10:48"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Watt2018",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ]
+    },
+    {
+      "Name": "Varhe triazolam 0.25 mg po fluconazole 200mg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Varhe 1996c - Triazolam with perpetrator fluconazole 200mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)",
+        "Varhe 1996c - Fluconazole 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=8)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 97.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Varhe_1996_fluconazole_200.mg.po|Fluconazole_Weibull_medium high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Varhe_1996_fluconazole_200.mg.po|Fluconazole_Weibull_medium high dose|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Varhe_1996_fluconazole_200.mg.po|Fluconazole_Weibull_medium high dose|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Varhe_1996_fluconazole_200.mg.po|Fluconazole_Weibull_medium high dose|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Varhe_1996_triazolam_0.25mg_po|Halcion|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Triazolam European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Triazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-alpha-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A4-4-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "UGT2B7"
+            }
+          ],
+          "Protocol": {
+            "Name": "Varhe_1996_triazolam_0.25mg_po",
+            "Formulations": [
+              {
+                "Name": "Halcion",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Fluconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Measurement_Specific_Intestinal_Permeability_GastroPlus",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "UGT2B7-Watt2018",
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "Name": "Glomerular Filtration-Watt2018",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Varhe_1996_fluconazole_200.mg.po",
+            "Formulations": [
+              {
+                "Name": "Fluconazole_Weibull_medium high dose",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Triazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Varhe triazolam 0.25 mg po fluconazole 200mg|Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Varhe 1996c - Fluconazole 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=8)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Varhe 1996c - Fluconazole 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Varhe 1996c - Fluconazole 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Varhe 1996c - Triazolam with perpetrator fluconazole 200mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Varhe 1996c - Triazolam with perpetrator fluconazole 200mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Varhe 1996c - Triazolam with perpetrator fluconazole 200mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Varhe triazolam 0.25 mg po fluconazole 200mg|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Fluconazole-Triazolam-DDI\nVarhe triazolam 0.25 mg po fluconazole 200mg placebo\n2021-08-05 10:50"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Watt2018",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ]
+    },
+    {
+      "Name": "Varhe triazolam 0.25 mg po placebo",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Varhe_1996_triazolam_0.25mg_po_placebo|Halcion|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Triazolam European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Triazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-alpha-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A4-4-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "UGT2B7"
+            }
+          ],
+          "Protocol": {
+            "Name": "Varhe_1996_triazolam_0.25mg_po_placebo",
+            "Formulations": [
+              {
+                "Name": "Halcion",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Triazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Varhe triazolam 0.25 mg po placebo|Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Fluconazole-Triazolam-DDI\nVarhe triazolam 0.25 mg po placebo\n2021-09-24 14:21"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 725.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Varhe 1996c"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/8904618"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Triazolam + placebo"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 8.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.25 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion®"
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "Arith. SEM converted to arith. SD"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 343.21
+              },
+              "Values": [
+                "NaN",
+                "NaN",
+                0.000661970756,
+                0.0006168375,
+                0.000421257457,
+                0.0003911658,
+                0.0004062102,
+                0.000330985378,
+                0.000300896558,
+                "NaN"
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21
+          },
+          "Values": [
+            0.0008670213,
+            0.0014680851,
+            0.001398936,
+            0.001351064,
+            0.00105851109,
+            0.0009202127,
+            0.0007393617,
+            0.0005797873,
+            0.000484042626,
+            2.12766E-05
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0,
+          18.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Varhe 1996c - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1388.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Varhe 1996c"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/8904618/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Fluconazole 50 mg oral"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 8.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Fluconazole"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "50 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": "0-24-48-72"
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Diflucan"
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "Arith. SEM converted to arith. SD"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Varhe 1996c - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 306.33
+              },
+              "Values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Varhe 1996c - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 306.33
+          },
+          "Values": [
+            1.22,
+            2.06,
+            2.06,
+            2.18,
+            2.12,
+            2.12,
+            2.06,
+            1.97,
+            1.91000009,
+            1.85,
+            1.49
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Varhe 1996c - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          73.0,
+          73.5,
+          74.0,
+          74.5,
+          75.0,
+          76.0,
+          77.0,
+          78.0,
+          79.0,
+          80.0,
+          91.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Varhe 1996c - Fluconazole 100 mg oral - Fluconazole - PO - 100 mg - Plasma - agg. (n=8)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1389.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Varhe 1996c"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/8904618/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Fluconazole 100 mg oral"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 8.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Fluconazole"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "100 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": "0-24-48-72"
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Diflucan"
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "Arith. SEM converted to arith. SD"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Varhe 1996c - Fluconazole 100 mg oral - Fluconazole - PO - 100 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 306.33
+              },
+              "Values": [
+                0.0,
+                1.18202925,
+                1.013168,
+                0.9287373,
+                0.0,
+                0.0,
+                0.8443066,
+                0.675445259,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Varhe 1996c - Fluconazole 100 mg oral - Fluconazole - PO - 100 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 306.33
+          },
+          "Values": [
+            2.42,
+            3.73,
+            4.09,
+            4.18,
+            4.15,
+            4.15,
+            4.18,
+            4.09,
+            3.87999988,
+            3.82000017,
+            3.13
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Varhe 1996c - Fluconazole 100 mg oral - Fluconazole - PO - 100 mg - Plasma - agg. (n=8)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          73.0,
+          73.5,
+          74.0,
+          74.5,
+          75.0,
+          76.0,
+          77.0,
+          78.0,
+          79.0,
+          80.0,
+          91.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Varhe 1996c - Fluconazole 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=8)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1390.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Varhe 1996c"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/8904618/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Fluconazole 200 mg oral"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 8.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Fluconazole"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "200 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": "0-24-48-72"
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Diflucan"
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "Arith. SEM converted to arith. SD"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Varhe 1996c - Fluconazole 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 306.33
+              },
+              "Values": [
+                1.26646,
+                2.11076641,
+                2.026336,
+                2.026336,
+                2.11076641,
+                2.026336,
+                2.11076641,
+                1.68861318,
+                1.6041826,
+                2.195197,
+                1.6041826
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Varhe 1996c - Fluconazole 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 306.33
+          },
+          "Values": [
+            6.33,
+            9.76,
+            10.1,
+            10.1,
+            10.1,
+            10.1,
+            10.0,
+            9.67,
+            9.58,
+            9.4,
+            7.69999933
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Varhe 1996c - Fluconazole 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=8)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          73.0,
+          73.5,
+          74.0,
+          74.5,
+          75.0,
+          76.0,
+          77.0,
+          78.0,
+          79.0,
+          80.0,
+          91.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Varhe 1996c - Triazolam with perpetrator fluconazole 50mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1394.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Varhe 1996c"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/8904618/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Triazolam with perpetrator fluconazole 50mg"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 8.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.25 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 73.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion"
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Varhe 1996c - Triazolam with perpetrator fluconazole 50mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21
+          },
+          "Values": [
+            0.00131,
+            0.00185,
+            0.00185,
+            0.00185,
+            0.00162,
+            0.00146,
+            0.00117,
+            0.00104,
+            0.000879,
+            9.92000059E-05
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Varhe 1996c - Triazolam with perpetrator fluconazole 50mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          73.5,
+          74.0,
+          74.5,
+          75.0,
+          76.0,
+          77.0,
+          78.0,
+          79.0,
+          80.0,
+          91.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Varhe 1996c - Triazolam with perpetrator fluconazole 100mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1395.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Varhe 1996c"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/8904618/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Triazolam with perpetrator fluconazole 100mg"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 8.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.25 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 73.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion"
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Varhe 1996c - Triazolam with perpetrator fluconazole 100mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21
+          },
+          "Values": [
+            0.000645,
+            0.00138,
+            0.00176,
+            0.00183000008,
+            0.00183000008,
+            0.00172000006,
+            0.00153,
+            0.00133,
+            0.00118,
+            0.000238000008
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Varhe 1996c - Triazolam with perpetrator fluconazole 100mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          73.5,
+          74.0,
+          74.5,
+          75.0,
+          76.0,
+          77.0,
+          78.0,
+          79.0,
+          80.0,
+          91.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Varhe 1996c - Triazolam with perpetrator fluconazole 200mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1396.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Varhe 1996c"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/8904618/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Triazolam with perpetrator fluconazole 200mg"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 8.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.25 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 73.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion"
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Varhe 1996c - Triazolam with perpetrator fluconazole 200mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21
+          },
+          "Values": [
+            0.00151,
+            0.00279,
+            0.00293,
+            0.00308999978,
+            0.00309999986,
+            0.00285,
+            0.00257,
+            0.00237,
+            0.00217000023,
+            0.000715
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Varhe 1996c - Triazolam with perpetrator fluconazole 200mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          73.5,
+          74.0,
+          74.5,
+          75.0,
+          76.0,
+          77.0,
+          78.0,
+          79.0,
+          80.0,
+          91.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "ObservedDataClassifications": [
+    {
+      "Name": "Triazolam",
+      "Classifiables": [
+        "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)",
+        "Varhe 1996c - Triazolam with perpetrator fluconazole 50mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)",
+        "Varhe 1996c - Triazolam with perpetrator fluconazole 100mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)",
+        "Varhe 1996c - Triazolam with perpetrator fluconazole 200mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)"
+      ]
+    },
+    {
+      "Name": "Fluconazole",
+      "Classifiables": [
+        "Varhe 1996c - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)",
+        "Varhe 1996c - Fluconazole 100 mg oral - Fluconazole - PO - 100 mg - Plasma - agg. (n=8)",
+        "Varhe 1996c - Fluconazole 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=8)"
+      ]
+    }
+  ]
+}
